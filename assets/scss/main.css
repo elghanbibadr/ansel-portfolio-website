@@ -399,7 +399,34 @@ p {
   font-weight: 600;
 }
 
-body {
+.btn {
+  padding: 16px 14px;
+  font-size: 1.7rem;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.btn--transparent {
+  background-color: transparent;
+  color: #7e74b8;
+  border: 2px solid #7e74b8;
+}
+
+.btn--transparent:hover {
+  background-color: #7e74b8;
   color: white;
+}
+
+.btn--primary {
+  background-color: #7e74b8;
+  color: #0b111e;
+  padding-inline: 22px;
+}
+
+.btn--primary:hover {
+  background-color: #9b94bf;
 }
 /*# sourceMappingURL=main.css.map */

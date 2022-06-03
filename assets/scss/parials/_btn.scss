@@ -1,0 +1,27 @@
+.btn{
+    padding:16px 14px;
+    font-size: 1.7rem;
+    border-radius: $borderRdius;
+    font-weight: bold;
+    cursor: pointer;
+    transition:  0.7s;
+}
+
+.btn--transparent{
+    background-color: transparent;
+    color:$lightBlue;
+    border: 2px solid $lightBlue;
+    &:hover{
+        background-color: $lightBlue;
+        color: white;
+    }
+}
+
+.btn--primary{
+    background-color:$lightBlue;
+        color:$bodyBg;
+        padding-inline: 22px;
+        &:hover{
+            background-color: #9b94bf;
+        }
+}
