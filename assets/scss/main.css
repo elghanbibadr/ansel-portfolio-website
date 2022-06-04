@@ -429,4 +429,55 @@ p {
 .btn--primary:hover {
   background-color: #9b94bf;
 }
+
+.card {
+  max-width: 160px;
+  background-color: #262e3f;
+  padding-block: 2rem;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.card .card-logo {
+  height: 2.3rem;
+}
+
+.card .card-title {
+  color: white;
+  font-size: 1.9rem;
+  margin-block: 10px 2px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1.4;
+}
+
+.card .card-link {
+  color: #7e74b8;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.card .card-link img {
+  height: 1.5rem;
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card .card-link img:hover {
+  margin-left: 1rem;
+}
+
+.card--taller {
+  height: 170px;
+  text-align: left;
+  padding-left: 3rem;
+  padding-top: 4rem;
+}
+
+.card--taller .card-title {
+  margin-bottom: 2rem;
+}
 /*# sourceMappingURL=main.css.map */
