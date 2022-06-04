@@ -1,0 +1,26 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    background-color:#3d4352;
+    position: fixed;
+    bottom: 2rem;
+    transform: translate(calc(50vw - 50%));
+    border-radius: 20px;
+    padding: 10px 16px 6px;
+    &__logo{
+        height: 3rem;
+        background: linear-gradient(#7e74b8, #21304f);
+        border-radius: 50%;
+        width: 3rem;
+        cursor: pointer;
+        padding: 5px;
+        transition: transform 0.5s;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+    @include desktop{
+        display: none;
+    }
+}
