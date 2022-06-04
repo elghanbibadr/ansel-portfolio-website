@@ -480,4 +480,46 @@ p {
 .card--taller .card-title {
   margin-bottom: 2rem;
 }
+
+.modal {
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  padding: 5rem 1rem 2rem;
+  background-color: #191d25;
+  margin: 2rem;
+  max-width: 60rem;
+  text-align: center;
+  position: relative;
+}
+
+.modal__logo {
+  height: 2rem;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.modal__title {
+  font-size: 2rem;
+}
+
+.modal__desc {
+  margin-block: 2rem 3rem;
+}
+
+.modal__list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 6px;
+}
+
+.modal__list li .modal-checkicon {
+  height: 1.8rem;
+  margin-inline: 1rem;
+  position: relative;
+  top: 4px;
+}
 /*# sourceMappingURL=main.css.map */

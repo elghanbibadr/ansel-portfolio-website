@@ -1,0 +1,36 @@
+.modal{
+    border: 2px solid white;
+    border-radius: $borderRdius;
+    color: white;
+    padding: 5rem 1rem 2rem;
+    background-color: #191d25;
+    margin: 2rem;
+    max-width: 60rem;
+    text-align: center;
+    position: relative;
+    &__logo{
+        height: 2rem;
+        cursor: pointer;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+    &__title{
+        font-size: 2rem;
+    }
+    &__desc{
+        margin-block: 2rem 3rem;
+    }
+    &__list{
+        li{
+            display: flex;
+            margin-bottom: 6px;
+            .modal-checkicon{
+                height: 1.8rem;
+                margin-inline: 1rem;
+                position: relative;
+                top:4px;
+            }
+        }
+    }
+}
