@@ -1,23 +1,15 @@
-/*=============== CHANGE BACKGROUND HEADER ===============*/
+// change link background 
 
+let navLink=document.querySelectorAll('.nav__logo');
 
-/*=============== SERVICES MODAL ===============*/
-
-
-/*=============== MIXITUP FILTER PORTFOLIO ===============*/
-
-
-/* Link active work */ 
-
-
-/*=============== SWIPER TESTIMONIAL ===============*/
-
-
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
-
-
-/*=============== LIGHT DARK THEME ===============*/ 
-
-
-/*=============== SCROLL REVEAL ANIMATION ===============*/
+navLink.forEach(link=>{
+link.addEventListener('click',(e)=>{
+    // remove the class from all element
+    navLink.forEach(link=>{
+        link.classList.remove('active-link')
+    })
+    // add it to the target element
+    e.target.classList.add('active-link');
+});
+})
 

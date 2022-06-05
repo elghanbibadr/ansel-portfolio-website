@@ -18,15 +18,53 @@
     </head>
     <body>
         <!--=============== HEADER ===============-->
-        <header class="header" id="header">
-        
+        <header class="header section" id="header">
+            <!-- nav fixed bar -->
+            <nav class="nav">
+                <img src="/assets/img/house-user-solid.svg"  alt="logo of a nav icon"  class="nav__logo active-link">
+                <img src="/assets/img/user-solid.svg"  alt="logo of a nav icon" class="nav__logo">
+                <img src="/assets/img/calendar-solid.svg"  alt="logo of a nav icon" class="nav__logo">
+                <img src="/assets/img/briefcase-solid.svg"  alt="logo of a nav icon" class="nav__logo">
+                <img src="/assets/img/address-book-solid.svg"  alt="logo of a nav icon" class="nav__logo">
+            </nav>
+            <!-- nav links -->
+         <div class="nav-links">
+             <h4 class="nav-title">Ansel</h4>
+             <img src="/assets/img/moon-solid (1).svg" alt="moon logo" class="nav-logo">
+         </div>
         </header>
        
         <!--=============== MAIN ===============-->
         <main class="main">
             <!--=============== HOME ===============-->
             <section class="home section" id="home">
-                
+                 <div class="home__desc">
+                     <p class="home-text">Hello,I'm</p>
+                     <h1 class="home__title">Ansel Klee</h1>
+                     <p>Front End Developer</p>
+                     <div class="home-btns">
+                         <button class="btn btn--transparent">Download Cv</button>
+                         <button class="btn btn--primary">About me</button>
+                     </div>
+                 </div>
+                 <div class="home__images grid-cls-3">
+                     <!-- cols 1 -->
+                     <div class="home-socialMedia">
+                       <img src="/assets/img/linkedin-brands.svg" alt="image of linkedin logo">
+                       <img src="/assets/img/github-brands.svg" alt="image of github logo">
+                       <img src="/assets/img/codepen-brands.svg" alt="image of codepen-brands logo">
+                       <img src="/assets/img/horizontal-line-svgrepo-com.svg" alt="image of codepen-brands logo">
+                     </div>
+                     <!-- cols 2 -->
+                     <div class="home-img">
+                         <img src="/assets/img/perfil.png" alt="image of the Ansel">
+                     </div>
+                     <!-- cols 3-->
+                     <div class="home-scroll">
+                         <img src="/assets/img/arrow-down-short-wide-solid.svg" alt="scroll-icon " class="scroll-icon">
+                         <p class="scroll-text">scroll down</p>
+                     </div>
+                 </div>
             </section>
             
             <!--=============== ABOUT ===============-->
@@ -75,6 +113,6 @@
         <script src=""></script>
 
         <!--=============== MAIN JS ===============-->
-        <script src=""></script>
+        <script src="/assets/js/main.js"></script>
     </body>
 </html>

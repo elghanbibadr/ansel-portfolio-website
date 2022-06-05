@@ -1,0 +1,83 @@
+// HOOOME
+
+.home{
+    padding: 1rem;
+    &__desc{
+        text-align: center;
+    }
+    &-text{
+        font-weight: bold;
+    }
+
+    &__title{
+        color: white;
+        margin-block: 5px;
+    }
+    &-btns{
+        margin-block: 2rem;
+        & :last-child{
+            margin-left: 1rem;
+            border: 0;
+        }
+    }
+    &__images{
+        margin-block: 5rem;
+        .home-socialMedia{
+            & :last-child{
+                transform: rotate(90deg);
+            }
+         img{
+             height: 3rem;
+             display: block;
+             background-color: $cardBg;
+             padding: 0.5rem;
+             margin: 10px;
+            
+         }
+        }
+        .home-img{
+        text-align: center;
+        border-radius:  50%  50% 10px 10px;
+        box-shadow: 0 0 4px #7e74b8;
+        background:linear-gradient(#7e74b8, #21304f); 
+        
+            img{
+                width: 80%;
+                padding-top: 2rem;
+            }
+        }
+        .home-scroll{
+            padding-bottom: 2rem;
+        }
+        .home-scroll{
+           display: flex;
+           flex-direction: column;
+            justify-self: end;
+            img{
+                height: 2rem;
+                @include desktop{
+                    height: 3rem !important;
+                }
+            }
+            .scroll-text{
+              transform: rotate(-90deg);
+              margin-top: 5rem;
+                color: $lightBlue;
+            }
+        }
+    }
+        .home-scroll,.home-socialMedia{
+            align-self: center;
+              img{
+                transition: transform 0.5s;
+                &:hover{
+                    transform: scale(1.2);
+                }
+                @include desktop{
+                    height: 4rem;
+                }
+              }
+            
+        }
+    
+}

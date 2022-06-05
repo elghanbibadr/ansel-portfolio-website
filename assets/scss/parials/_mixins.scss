@@ -1,4 +1,4 @@
-@mixin tablettle {
+@mixin tablette {
     @media (min-width:$tablette){
         @content;
     }
