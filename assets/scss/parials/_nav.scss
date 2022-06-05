@@ -13,6 +13,7 @@ header{
     transform: translate(calc(50vw - 50%));
     border-radius: 20px;
     padding: 10px 16px 6px;
+    box-shadow: 0 0 10px  #4f576b;
     z-index: 999999;
     &__logo{
         height: 3rem;
@@ -26,8 +27,8 @@ header{
         }
     }
     @include desktop{
-        width: 50rem;
-        
+        width: 40rem;
+      
     }
 }
 
