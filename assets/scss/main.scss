@@ -10,3 +10,17 @@
 @import './parials/home';
 @import './parials/about';
 @import './parials/skill';
+
+
+.services{
+    &__cards{
+        .card{
+            width:30%;
+            @include desktop{
+                max-width:270px;
+            }
+        }
+        display: flex;
+        justify-content: center;
+    }
+}

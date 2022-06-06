@@ -849,4 +849,23 @@ header {
   left: 2.3rem;
   margin-top: 7px;
 }
+
+.services__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.services__cards .card {
+  width: 30%;
+}
+
+@media (min-width: 900px) {
+  .services__cards .card {
+    max-width: 270px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
