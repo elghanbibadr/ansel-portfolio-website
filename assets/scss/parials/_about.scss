@@ -1,0 +1,43 @@
+// ************about section*************
+
+.about{
+    &__heading{
+        text-align: center;
+    }
+    &__title{
+     color: $lightBlue;
+     margin-block: 1rem 4rem;
+    }
+    //  cls 1
+    &__img-box{
+    margin-bottom: 2rem;
+}
+   &__img{
+        border-radius: 20px;
+        width: 50%;
+        @include desktop{
+            width: 60%;
+        }
+    }
+   &__info{
+       padding: 1rem;
+   }
+    &__info-skills,&__img-box{
+      display: flex;
+      justify-content: center;
+    }
+    &__info-skills{
+        @include desktop{
+            justify-content: start;
+        }
+    }
+    &__description{
+     margin-block: 1.5rem;
+     text-align: center;
+     @include desktop{
+         text-align: left ;
+         margin-block: 0;
+     }
+    }
+}
+

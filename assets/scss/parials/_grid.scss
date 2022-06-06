@@ -3,3 +3,13 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
 }
+
+@include desktop{
+    .grid{
+        display: grid;
+        gap: 2rem;
+    }
+    .grid--cls-2{
+        grid-template-columns: 1fr 1fr;
+    }
+}

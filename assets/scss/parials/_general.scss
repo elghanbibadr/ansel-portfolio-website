@@ -17,9 +17,13 @@ ul{
     list-style: none;
 }
 .section{
-    margin: 6rem auto;
+    margin: 2rem auto;
     max-width: 130rem;
-    padding-block: 3rem;
+    padding-block: 2rem;
+    padding-inline: 1rem;
+    @include desktop{
+      margin-block:3rem;
+    }
 }
 a{
     text-decoration: none;

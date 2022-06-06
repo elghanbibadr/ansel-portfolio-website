@@ -1,3 +1,28 @@
+h1,
+h2
+, h3
+, h4,
+h5,
+h6 {
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-block: 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #a3a5ae;
+  font-weight: 600;
+}
+
 *, ::after, ::before {
   margin: 0;
   padding: 0;
@@ -19,9 +44,16 @@ ul {
 }
 
 .section {
-  margin: 6rem auto;
+  margin: 2rem auto;
   max-width: 130rem;
-  padding-block: 3rem;
+  padding-block: 2rem;
+  padding-inline: 1rem;
+}
+
+@media (min-width: 900px) {
+  .section {
+    margin-block: 3rem;
+  }
 }
 
 a {
@@ -370,37 +402,24 @@ template {
   display: none;
 }
 
-h1,
-h2
-, h3
-, h4,
-h5,
-h6 {
-  text-transform: capitalize;
-}
-
-h1 {
-  font-size: 4rem;
-  margin-block: 2rem;
-}
-
-h2 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.6rem;
-  line-height: 1.5;
-  color: #a3a5ae;
-  font-weight: 600;
-}
-
 .grid-cls-3 {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
+}
+
+@media (min-width: 900px) {
+  .grid {
+    display: -ms-grid;
+    display: grid;
+    gap: 2rem;
+  }
+  .grid--cls-2 {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
 }
 
 .btn {
@@ -435,7 +454,7 @@ p {
 }
 
 .card {
-  max-width: 160px;
+  width: 150px;
   background-color: #262e3f;
   padding-block: 2rem;
   margin: 1rem;
@@ -711,6 +730,63 @@ header {
 @media (min-width: 900px) {
   .home .home-scroll img, .home .home-socialMedia img {
     height: 4rem;
+  }
+}
+
+.about__heading {
+  text-align: center;
+}
+
+.about__title {
+  color: #7e74b8;
+  margin-block: 1rem 4rem;
+}
+
+.about__img-box {
+  margin-bottom: 2rem;
+}
+
+.about__img {
+  border-radius: 20px;
+  width: 50%;
+}
+
+@media (min-width: 900px) {
+  .about__img {
+    width: 60%;
+  }
+}
+
+.about__info {
+  padding: 1rem;
+}
+
+.about__info-skills, .about__img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 900px) {
+  .about__info-skills {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+.about__description {
+  margin-block: 1.5rem;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  .about__description {
+    text-align: left;
+    margin-block: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
