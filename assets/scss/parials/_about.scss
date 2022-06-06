@@ -1,13 +1,7 @@
 // ************about section*************
 
 .about{
-    &__heading{
-        text-align: center;
-    }
-    &__title{
-     color: $lightBlue;
-     margin-block: 1rem 4rem;
-    }
+  
     //  cls 1
     &__img-box{
     margin-bottom: 2rem;

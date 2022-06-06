@@ -1,0 +1,54 @@
+.skill{
+    margin: 1rem auto;
+    // grid
+    &__container{
+        background-color:#262e3f;
+        padding: 2rem;
+        border-radius: $borderRdius;
+        margin-bottom: 2rem;
+        width: 80%;
+        margin-inline: auto;
+        // @include desktop{
+        //    width: 80%;
+            
+        // }
+        }
+    &-intro{
+        font-size: 2.2rem;
+        color: $lightBlue;
+        text-transform: none;
+        text-align: center;
+        margin-block: 3rem;
+    }
+    &__frontEnd{
+       
+        img{
+            height: 1.7rem;
+            padding: 4px;
+            border-radius: 50%;
+            background-color: $lightBlue;
+            position: relative;
+            top: 1px;
+            margin-right: 10px;
+        }
+    }
+    .wrapper{
+        display: flex;
+        justify-content: space-around;
+    }
+    &-name-box{
+        margin-bottom: 2rem;
+    }
+    &-box-header{
+        display: flex;
+        .skill-name{
+            color: rgb(194, 194, 194);
+            font-size: 1.9rem;
+        }
+    }
+    &-level{
+        position: relative;
+        left: 2.3rem;
+        margin-top: 7px;
+    }
+}
