@@ -37,6 +37,7 @@ html {
 body {
   background-color: #0b111e;
   font-family: 'Mulish', sans-serif;
+  overflow-x: hidden;
 }
 
 ul {
@@ -499,7 +500,7 @@ template {
 }
 
 .card .card-link img:hover {
-  margin-left: 1rem;
+  margin-left: 0.4rem;
 }
 
 .card--taller {
@@ -514,27 +515,42 @@ template {
 }
 
 .modal {
-  border: 2px solid white;
   border-radius: 10px;
   color: white;
   padding: 5rem 1rem 2rem;
   background-color: #191d25;
   margin: 2rem;
-  max-width: 60rem;
+  width: 44rem;
+  height: 35rem;
   text-align: center;
   position: relative;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -15.5rem;
+  /* Negative half of height. */
+  margin-left: -22rem;
+  /* Negative half of width. */
+}
+
+@media (min-width: 900px) {
+  .modal {
+    width: 60rem;
+    margin-left: -30rem;
+  }
 }
 
 .modal__logo {
-  height: 2rem;
+  height: 2.3rem;
   cursor: pointer;
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 2rem;
+  right: 2rem;
 }
 
 .modal__title {
   font-size: 2rem;
+  color: #7e74b8;
 }
 
 .modal__desc {
@@ -850,6 +866,17 @@ header {
   margin-top: 7px;
 }
 
+.services__modal {
+  position: fixed;
+  background-color: #4a4f5bf0;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+  display: none;
+}
+
 .services__cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -867,5 +894,9 @@ header {
   .services__cards .card {
     max-width: 270px;
   }
+}
+
+.overlay-active {
+  display: block;
 }
 /*# sourceMappingURL=main.css.map */
