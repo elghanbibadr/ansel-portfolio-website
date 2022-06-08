@@ -39,9 +39,9 @@
             <!--=============== HOME ===============-->
             <section class="home section" id="home">
                  <div class="home__desc">
-                     <p class="home-text">Hello,I'm</p>
+                     <p class="home-text section__desc">Hello,I'm</p>
                      <h1 class="home__title">Ansel Klee</h1>
-                     <p>Front End Developer</p>
+                     <p class="section__desc">Front End Developer</p>
                      <div class="home-btns">
                          <button class="btn btn--transparent">Download Cv</button>
                          <button class="btn btn--primary">About me</button>
@@ -277,7 +277,74 @@
             </section>
             <!--=============== WORK ===============-->
             <section class="work section" id="work">
-                
+                <div class="work__heading section__heading">
+                    <p class="section__desc">My Portfolio</p>
+                    <h2 class="section__title">Recent works</h2>
+                </div>
+                <div class="work__btns-group">
+                    <button id='All' class="btn work__btn btn--black work__btn--active">All</button>
+                    <button data-type="web" class="btn work__btn btn--black">Web</button>
+                    <button data-type="mobile" class="btn work__btn btn--black">Mobil</button>
+                    <button data-type="design" class="btn work__btn btn--black">Design</button>
+                </div>
+                <!--GRID  -->
+                <div class="container grid grid--cls-2">
+                    <!-- card 1 -->
+                    <div class="card work__card" id="web">
+                        <img class="work__img" src="/assets/img/work1.jpg" alt="image of a computer with some pencil and a Phone">
+                        <div class="card__footer">
+                            <h3 class="card__title">Web design</h3>
+                            <div class="footer-link">
+                                <p class="card__work-link">Demo</p>
+                               <img src="/assets/img/arrow-right-long-solid (1).svg" alt="arrow-right-long-solid">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card2 -->
+                    <div class="card work__card" id="mobile">
+                        <img class="work__img" src="/assets/img/work2.jpg" alt="image of a keyboard and a mouse">
+                        <div class="card__footer">
+                            <h3 class="card__title">App mobil</h3>
+                            <div class="footer-link">
+                                <p class="card__work-link">Demo</p>
+                               <img src="/assets/img/arrow-right-long-solid (1).svg" alt="arrow-right-long-solid">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="card work__card" id="design">
+                        <img class="work__img" src="/assets/img/work3.jpg" alt="image of a computer with some pencil and a Phone">
+                        <div class="card__footer">
+                            <h3 class="card__title">Brand design</h3>
+                            <div class="footer-link">
+                                <p class="card__work-link">Demo</p>
+                               <img src="/assets/img/arrow-right-long-solid (1).svg" alt="arrow-right-long-solid">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 4 -->
+                    <div class="card work__card"  id="web">
+                        <img class="work__img" src="/assets/img/work4.jpg" alt="image of a computer with some pencil and a Phone">
+                        <div class="card__footer">
+                            <h3 class="card__title">Web devops</h3>
+                            <div class="footer-link">
+                                <p class="card__work-link">Demo</p>
+                               <img src="/assets/img/arrow-right-long-solid (1).svg" alt="arrow-right-long-solid">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 5 -->
+                    <div class="card work__card" id="mobile">
+                        <img class="work__img" src="/assets/img/work5.jpg" alt="image of a computer with some pencil and a Phone">
+                        <div class="card__footer">
+                            <h3 class="card__title">Mobile game</h3>
+                            <div class="footer-link">
+                                <p class="card__work-link">Demo</p>
+                               <img src="/assets/img/arrow-right-long-solid (1).svg" alt="arrow-right-long-solid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!--=============== TESTIMONIALS ===============-->

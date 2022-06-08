@@ -25,3 +25,12 @@
             background-color: #9b94bf;
         }
 }
+
+.btn--black{
+    color: white;
+    background-color: transparent;
+    border: 1px solid $cardBg;
+    &:hover{
+        background-color: #1d2433;
+    }
+}
