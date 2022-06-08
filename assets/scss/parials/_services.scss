@@ -1,0 +1,27 @@
+.services{
+    &__modal{
+        position:fixed;
+        background-color:#4a4f5bf0;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 9999999;
+        display: none;
+       
+    }
+    &__cards{
+        .card{
+            width:30%;
+            @include desktop{
+                max-width:270px;
+            }
+        }
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.overlay-active{
+display: block;
+}
