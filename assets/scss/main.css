@@ -37,7 +37,6 @@ html {
 body {
   background-color: #0b111e;
   font-family: 'Mulish', sans-serif;
-  overflow-x: hidden;
 }
 
 ul {
@@ -609,6 +608,7 @@ header {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 80%;
+  display: none;
   background-color: #3d4352;
   position: fixed;
   bottom: 2rem;
@@ -998,5 +998,57 @@ header {
 
 .hide-card {
   display: none;
+}
+
+.testimonial__slider {
+  position: relative;
+  padding: 2rem;
+}
+
+.testimonial__slider .slider-cards {
+  display: none;
+  margin-inline: auto !important;
+  width: 400px;
+  text-align: left;
+  padding: 2rem;
+}
+
+@media (min-width: 900px) {
+  .testimonial__slider .slider-cards {
+    width: 600px;
+  }
+}
+
+.testimonial .slider-active {
+  display: block;
+}
+
+.testimonial__name {
+  color: white;
+  font-size: 1.8rem;
+  margin-block: 1rem;
+}
+
+.testimonial__img {
+  border-radius: 50%;
+  height: 6rem;
+}
+
+.testimonial .slider-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.testimonial .dots {
+  height: 1.3rem;
+  margin-inline: 10px;
+  cursor: pointer;
+  width: 1.3rem;
+  border-radius: 50%;
+  border: 1px solid white;
 }
 /*# sourceMappingURL=main.css.map */
