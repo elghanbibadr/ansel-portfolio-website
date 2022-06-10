@@ -1,0 +1,44 @@
+
+.footer{
+    padding: 3rem 4rem;
+    background-color: $lightBlue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__name{
+      font-size:3.5rem;
+      margin-bottom: 2rem;
+      font-weight: bold;
+    }
+    &__list{
+        display: flex;
+        a{
+        color: $bodyBg;
+        margin-inline: 1.5rem;
+        font-weight: bold;
+        font-size: 1.6rem;
+        transition: color 0.5s;
+        &:hover{
+            color:rgb(212, 208, 208);
+        }
+        }
+    }
+
+    &__socialMedia{
+         display:flex;
+        margin-top: 2rem;
+        svg{
+            height: 2.5rem;
+            margin-inline: 2rem;
+            cursor: pointer;
+            transition: transform 0.5s ease-in-out;
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+    }
+    &__copyRight{
+        margin-top: 3rem;
+        color: $cardBg;
+    }
+}
