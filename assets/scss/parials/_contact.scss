@@ -17,6 +17,12 @@
     }
     &__Dm{
         margin-block: 1.7rem;
+        color: $lightBlue;
+        font-weight: bold;
+        img{
+            height: 1.7rem;
+            transform: translateY(5px);
+        }
     }  
     .form-title{
         color: white;
