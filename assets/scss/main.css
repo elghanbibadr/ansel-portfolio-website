@@ -1115,4 +1115,71 @@ header {
 .contact .textarea {
   margin-block: 1rem 4rem;
 }
+
+.footer {
+  padding: 3rem 4rem;
+  background-color: #7e74b8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__name {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__list a {
+  color: #0b111e;
+  margin-inline: 1.5rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.footer__list a:hover {
+  color: #d4d0d0;
+}
+
+.footer__socialMedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.footer__socialMedia svg {
+  height: 2.5rem;
+  margin-inline: 2rem;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+}
+
+.footer__socialMedia svg:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.footer__copyRight {
+  margin-top: 3rem;
+  color: #151b28;
+}
 /*# sourceMappingURL=main.css.map */
