@@ -12,3 +12,68 @@
 @import './parials/skill';
 @import './parials/services';
 @import './parials/work';
+@import './parials/testimonial';
+
+
+.contact{
+    padding: 2rem;
+    &__social-media {
+        .contact__card{
+            width:  80% !important;
+            margin:2rem auto;
+            text-align: center;
+        }
+    }
+    &__logo{
+        height: 2rem ;
+    }
+    &__name{
+        color: white;
+        margin-block: 1rem 0.5rem;
+        font-size: 1.7rem;
+    }
+    &__Dm{
+        margin-block: 1.7rem;
+    }  
+    .form-title{
+        color: white;
+        text-align: center;
+        margin-top: 3rem;
+        font-size:2rem;
+    }
+    .form{ 
+     &__name{
+    border: 1px solid $textColor;
+      margin: 2rem auto;
+      position: relative;
+      border-radius: 10px;
+      margin-block:3rem;
+     }
+
+        label{
+            color: $textColor;
+            font-size: 1.7rem;
+            font-weight: bold;
+            position: absolute;
+            top: -1rem;
+            left: 1rem;
+            z-index: 99999;
+            background-color: $bodyBg;
+        }
+        
+        input{
+            width: 80%;
+            background-color: transparent;
+            outline: none;
+            font-size: 1.7rem;
+            padding:1.7rem;
+            border: none;
+            border-radius: 10px;
+           
+        }
+    }
+
+    .textarea{
+        margin-block:1rem 4rem;
+    }
+}
