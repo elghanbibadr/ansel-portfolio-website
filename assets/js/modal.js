@@ -8,15 +8,15 @@ const modalCloseIcon=document.querySelector('.modal__logo');
 modalLinks.forEach(link=>link.addEventListener('click',showModal))
 
 modalCloseIcon.addEventListener('click',closeModal);
-// functions
-function showModal(){
-    document.body.style.overflowY='hidden'
-    modalOverlay.classList.add('overlay-active');
-}
-function closeModal(){
-    document.body.style.overflowY='visible'
- modalOverlay.classList.remove('overlay-active');
-}
+ function showModal(){
+     document.body.style.overflowY='hidden'
+     modalOverlay.classList.add('overlay-active');
+ }
+ function closeModal(){
+     document.body.style.overflowY='visible'
+  modalOverlay.classList.remove('overlay-active');
+ }
+
 
 
 // close the modal when pressing the enter key

@@ -5,10 +5,15 @@ let navLink=document.querySelectorAll('.nav__logo');
 navLink.forEach(link=>{
 link.addEventListener('click',(e)=>{
     // remove the class from all element
-    navLink.forEach(link=>{
-        link.classList.remove('active-link')
-    })
+    navLink.forEach(link=> UpdateLinkBg(link,true));
     // add it to the target element
-    e.target.classList.add('active-link');
+    UpdateLinkBg(e.target);
 });
 })
+
+
+function UpdateLinkBg(link,isRemove){
+ isRemove?link.classList.remove('active-link'):
+ link.classList.add('active-link');
+}
+
