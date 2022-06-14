@@ -10,6 +10,10 @@ const btns=document.querySelectorAll('.btn')
 const btnTransparent=document.querySelector('.btn--transparent');
 const stickyNav=document.querySelector('.nav-links');
 
+
+
+
+
 navLogoMoon.addEventListener('click',()=>{
    addHidden(navLogoMoon);
    removeHidden(navLogosun);
@@ -22,6 +26,8 @@ navLogoMoon.addEventListener('click',()=>{
    addTheme(btnTransparent,'btn--transparent-light');
    StickyNav();
   
+
+
 })
 
 navLogosun.addEventListener('click',()=>{
