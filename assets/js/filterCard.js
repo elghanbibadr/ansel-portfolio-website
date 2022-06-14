@@ -14,7 +14,7 @@ workBtns.forEach(btn=>btn.addEventListener('click',(e)=>{
              }
              else {
                  hideCards(card)
-                if (card.id===currentAttribute){
+                if (card.getAttribute('data-id')===currentAttribute){
                     showCards(card);
                 }
             }

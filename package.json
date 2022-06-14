@@ -1,0 +1,15 @@
+{
+  "name": "responsive-portfolio-website-ansel-main",
+  "version": "1.0.0",
+  "description": "- Responsive Portfolio Website Using HTML CSS & JavaScript - Smooth scrolling in each section. - Includes a dark and light mode. - Developed first with the Mobile First methodology, then for desktop. - Compatible with all mobile devices and with a beautiful and pleasant user interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.6.0"
+  }
+}
