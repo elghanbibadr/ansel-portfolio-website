@@ -9,8 +9,9 @@ header{
     width: 80%;
     background-color:#3d4352;
     position: fixed;
+    left: 50%;
+    margin-left: -40%;
     bottom: 2rem;
-    transform: translate(calc(50vw - 50%));
     border-radius: 20px;
     padding: 10px 16px 6px;
     box-shadow: 0 0 10px  #4f576b;
@@ -28,7 +29,13 @@ header{
     }
     @include desktop{
         width: 40rem;
+        margin-left: -20rem;
+        
       
+    }
+    @include desktopLarge{
+        width: 60rem;
+        margin-left: -30rem;
     }
 }
 

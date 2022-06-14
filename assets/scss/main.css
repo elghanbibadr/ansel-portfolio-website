@@ -609,9 +609,9 @@ header {
   width: 80%;
   background-color: #3d4352;
   position: fixed;
+  left: 50%;
+  margin-left: -40%;
   bottom: 2rem;
-  -webkit-transform: translate(calc(50vw - 50%));
-          transform: translate(calc(50vw - 50%));
   border-radius: 20px;
   padding: 10px 16px 6px;
   -webkit-box-shadow: 0 0 10px  #4f576b;
@@ -639,6 +639,14 @@ header {
 @media (min-width: 900px) {
   .nav {
     width: 40rem;
+    margin-left: -20rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .nav {
+    width: 60rem;
+    margin-left: -30rem;
   }
 }
 
