@@ -49,7 +49,9 @@ header{
     }
 }
 
-
+.hidden{
+    display: none;
+}
 
 .active-link{
    background: linear-gradient(#7e74b8, #21304f);

@@ -12,8 +12,11 @@ link.addEventListener('click',(e)=>{
 })
 
 
-function UpdateLinkBg(link,isRemove){
- isRemove?link.classList.remove('active-link'):
- link.classList.add('active-link');
+
+function UpdateLinkBg(element,isRemove){
+   isRemove ? element.classList.remove('active-link'):
+   element.classList.add('active-link')
 }
+
+
 

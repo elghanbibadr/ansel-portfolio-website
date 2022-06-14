@@ -664,6 +664,10 @@ header {
   cursor: pointer;
 }
 
+.hidden {
+  display: none;
+}
+
 .active-link {
   background: -webkit-gradient(linear, left top, left bottom, from(#7e74b8), to(#21304f));
   background: linear-gradient(#7e74b8, #21304f);
@@ -799,6 +803,10 @@ header {
 
 .about__info {
   padding: 1rem;
+}
+
+.about__card {
+  width: 150px !important;
 }
 
 .about__info-skills, .about__img-box {
@@ -1041,7 +1049,7 @@ header {
   cursor: pointer;
   width: 1.3rem;
   border-radius: 50%;
-  border: 1px solid white;
+  border: 1px solid #ccc;
 }
 
 .testimonial .dots-active {
@@ -1186,5 +1194,74 @@ header {
 .footer__copyRight {
   margin-top: 3rem;
   color: #151b28;
+}
+
+.nav-light {
+  -webkit-box-shadow: 0 0 10px #ccc !important;
+          box-shadow: 0 0 10px #ccc !important;
+  background-color: #524949 !important;
+}
+
+.body-light {
+  background-color: #fafafa !important;
+}
+
+.dots-light {
+  background: -webkit-gradient(linear, left top, left bottom, from(#524949), to(#fafafa)) !important;
+  background: linear-gradient(#524949, #fafafa) !important;
+}
+
+.homeImg-light {
+  -webkit-box-shadow: 0 0 4px #524949 !important;
+          box-shadow: 0 0 4px #524949 !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#524949), to(#fafafa)) !important;
+  background: linear-gradient(#524949, #fafafa) !important;
+}
+
+.heading-light {
+  color: #524949 !important;
+}
+
+.card-light {
+  background-color: #e1dcdc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+}
+
+.btns-light {
+  background-color: transparent !important;
+  border: 1px solid #524949 !important;
+}
+
+.btns-light:hover {
+  background-color: #ccc !important;
+}
+
+.btn--transparent-light {
+  background-color: #524949 !important;
+  color: white;
+}
+
+.nav-sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 9999999;
+  right: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  padding: 2rem 4rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#7e74b8), to(#21304f));
+  background: linear-gradient(#7e74b8, #21304f);
+}
+
+.nav-sticky-light {
+  background: #6b6363 !important;
+  -webkit-box-shadow: 0 0 20px #222222 !important;
+          box-shadow: 0 0 20px #222222 !important;
+}
+
+.nav-sticky-light .nav-title {
+  color: white !important;
 }
 /*# sourceMappingURL=main.css.map */
