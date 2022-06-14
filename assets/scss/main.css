@@ -1125,6 +1125,10 @@ header {
   border-radius: 10px;
 }
 
+.contact .form input:focus {
+  color: #b3b3b3;
+}
+
 .contact .textarea {
   margin-block: 1rem 4rem;
 }

@@ -58,7 +58,9 @@
             padding:1.7rem;
             border: none;
             border-radius: 10px;
-           
+           &:focus{
+            color: rgb(179, 179, 179);
+           }
         }
     }
 
